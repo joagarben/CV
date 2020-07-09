@@ -29,7 +29,7 @@
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
@@ -39,8 +39,8 @@
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
 
-\firstname{Joaquín} % Your first name
-\familyname{García} % Your last name
+\firstname{Joaqu\'{i}n} % Your first name
+\familyname{Garc\'{i}a} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
@@ -51,7 +51,7 @@
 \email{joagarben@gmail.com}
 %\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
-%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
@@ -64,7 +64,7 @@
 
 % To remove the cover letter, comment out this entire block
 
-\clearpage
+%\clearpage
 
 %\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
 %\date{\today} % Letter date
@@ -79,7 +79,7 @@
 
 %\makeletterclosing % Print letter signature
 
-%\newpage
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	CURRICULUM VITAE
@@ -91,17 +91,17 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Educacion}
+\section{Educaci\'{o}n}
 
-\cventry{2017--2018}{Tecnicatura en Telecomunicaciones}{UTU - LATU}  % Arguments not required can be left empty
-\cventry{2009--2010}{Tecnicatura en Redes y Telecomunicaciones}{UTU - Instituto Tecnologico Superior}
-\cventry{2006--2009}{Bachillerato Tecnologico en Informática}{UTU - Instituto Tecnologico Superior}
+\cventry{2017--2018}{Tecnicatura en Telecomunicaciones}{UTU - LATU}{}{}{}  % Arguments not required can be left empty
+\cventry{2009--2010}{Tecnicatura en Redes y Telecomunicaciones}{UTU - Instituto Tecnol\'{o}gico Superior}{}{}{}
+\cventry{2006--2009}{Bachillerato Tecnol\'{o}gico en Informatica}{UTU - Instituto Tecnologico Superior}{}{}{}
 
 \section{Proyecto fin de grado - Tecnicatura en Telecomunicaciones}
 
-\cvitem{Titulo}{\emph{Implementacin de Software Defined Networking por medio del protocolo OpenFlow}}
+\cvitem{T\'{i}tulo}{\emph{Implementaci\'{o}n de Software Defined Networking por medio del protocolo OpenFlow}}
 \cvitem{Tutor}{Catherine Sonderegger}
-\cvitem{Descripción}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+\cvitem{Descripcion}{Proyecto que se enfoc\'{o} en crear una topolog\'{i}a de red donde sus principales funciones fueran gestionadas por un controlador OpenFlow}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -111,7 +111,7 @@
 
 \subsection{Vocational}
 
-\cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
+\cventry{2016--Present}{1\textsuperscript{st} T\'{e}cnico Supervisor de Operaci\'{o}n de Data Center}{\textsc{ANTEL}}{Pando}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
 \newline{}\newline{}
 Detailed achievements:
 \begin{itemize}
@@ -131,13 +131,15 @@ Detailed achievements:
 
 %------------------------------------------------
 
-\cventry{2011--2012}{Summer Intern}{\textsc{Lehman Brothers}}{Los Angeles}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
+\cventry{2011--2016}{T\'{e}cnico de Operaci\'{o}n de Data Center}{\textsc{ANTEL}}{Montevideo}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
 
 %------------------------------------------------
 
-%\subsection{Miscellaneous}
+\cventry{2010--2011}{T\'{e}cnico de soporte}{\textsc{IINN-CFE}}{Montevideo}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
 
-%\cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
+\subsection{Cursos}
+
+%\cventry{2010}{Administrador de Redes Linux}{Centro Linux}{}{}{}
 
 %\cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
 
@@ -173,22 +175,22 @@ Detailed achievements:
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Languages}
+\section{Idiomas}
 
-\cvitemwithcomment{Español}{Nativo}{}
-\cvitemwithcomment{Inglés}{Intermedio}{Conversationally fluent}
+\cvitemwithcomment{Espa\~{n}ol}{Nativo}{}
+\cvitemwithcomment{Ingl\'{e}s}{Intermedio}{}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Interests}
+%\section{Interests}
 
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Piano}{Chess}
-\cvlistdoubleitem{Cooking}{Dancing}
-\cvlistitem{Running}
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
 
 %----------------------------------------------------------------------------------------
 
