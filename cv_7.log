@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.7.9)  9 JUL 2020 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.7.9)  10 JUL 2020 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,12 +490,12 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 59.
 \makecvtitlepicturebox=\box31
 
-<pictures/picture.jpg, id=29, 2277.50874pt x 2387.92125pt>
+<pictures/picture.jpg, id=29, 683.55376pt x 716.6775pt>
 File: pictures/picture.jpg Graphic file (type jpg)
 
 <use pictures/picture.jpg>
 Package pdftex.def Info: pictures/picture.jpg used on input line 88.
-(pdftex.def)             Requested size: 70.0pt x 73.3835pt.
+(pdftex.def)             Requested size: 70.0pt x 73.38884pt.
 \makecvtitlepicturewidth=\skip71
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
@@ -578,7 +578,7 @@ ic/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share
 lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (2 pages, 1442034 bytes).
+Output written on cv_7.pdf (2 pages, 332125 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
